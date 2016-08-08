@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:soundEffectsEnabled="true">
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <ImageView
+	        android:src="@drawable/logo"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+	        android:gravity="center" 
+                
+    />
+    <ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/jaime"
+	         android:gravity="center"
+	        android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+	        />
+   </LinearLayout>
+
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Choisir une catégorie de chant"
+	    android:clickable="false"
+	    android:autoLink="all"
+	    android:textStyle="bold"
+            android:textColor="#000000"
+	    android:background="#dddddd"
+	    android:gravity="center"
+	    />
+ 
+    <ImageView
+	        android:id="@+id/louange"
+                android:src="@drawable/louange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	        android:gravity="left" 
+                android:clickable="true"
+                android:onClick="clickLouange"
+    />
+    
+    <ImageView
+                android:id="@+id/adoration"
+	        android:src="@drawable/adoration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	        android:gravity="left" 
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:onClick="clickAdoration"
+    />
+    <ImageView
+                android:id="@+id/messe"
+	        android:src="@drawable/messe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	        android:gravity="left" 
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:onClick="clickMesse"
+    />
+
+    <ImageView
+                android:id="@+id/careme"
+	        android:src="@drawable/careme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	        android:gravity="left" 
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:onClick="clickCareme"
+    />
+
+    <ImageView
+                android:id="@+id/mariage"
+	        android:src="@drawable/mariage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	        android:gravity="left"
+                android:layout_marginTop="1dp" 
+                android:clickable="true"
+                android:onClick="clickMariage"
+    />
+   
+    <ImageView
+                android:id="@+id/autre"
+	        android:src="@drawable/autre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	        android:gravity="left" 
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:onClick="clickAutre"
+    />
+    
+    
+
+</LinearLayout>
+</ScrollView>

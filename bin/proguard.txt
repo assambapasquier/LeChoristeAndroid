@@ -1,0 +1,33 @@
+# view AndroidManifest.xml #generated:20
+-keep class Choraledroid.activities.LectureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class Choraledroid.activities.ListeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class Choraledroid.activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class Choraledroid.activities.MesseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class Choraledroid.activities.SplashActivity { <init>(...); }
+
+# onClick res/layout/accueil.xml #generated:57
+-keepclassmembers class * { *** clickAdoration(...); }
+
+# onClick res/layout/accueil.xml #generated:100
+-keepclassmembers class * { *** clickAutre(...); }
+
+# onClick res/layout/accueil.xml #generated:78
+-keepclassmembers class * { *** clickCareme(...); }
+
+# onClick res/layout/accueil.xml #generated:47
+-keepclassmembers class * { *** clickLouange(...); }
+
+# onClick res/layout/accueil.xml #generated:89
+-keepclassmembers class * { *** clickMariage(...); }
+
+# onClick res/layout/accueil.xml #generated:67
+-keepclassmembers class * { *** clickMesse(...); }
+
